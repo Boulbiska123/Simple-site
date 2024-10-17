@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Life</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Simple Life</h1>
+        <nav>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Simple Life</h2>
+            <p>Promoting simplicity and mindfulness in everyday living.</p>
+            <a href="#about" class="explore-btn">Explore</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>At Simple Life, we believe in the power of simplicity. Our mission is to inspire individuals to embrace a simpler, more mindful lifestyle, free from unnecessary distractions.</p>
+                <p>Join us in our journey towards tranquility and fulfillment.</p>
+            </div>
+            <img src="./assets/1.jpeg" alt="Simplicity">
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="./assets/4.jpeg" alt="Nature">
+            <img src="./assets/6.jpg" alt="Nature">
+            <img src="./assets/7.jpg" alt="Nature">
+            <img src="./assets/8.jpg" alt="Nature">
+            <img src="./assets/9.jpg" alt="Nature">
+            <img src="./assets/10.jpg" alt="Nature">
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+        </div>
+        <p>© 2024 Simple Life</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
